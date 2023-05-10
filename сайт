@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Заголовок страницы</title>
+  </head>
+  <body>
+    <h1>Заголовок страницы</h1>
+    <p>Привет, это простой сайт!</p>
+  </body>
+</html>
+<!-- Добавление изображения -->
+<img src="путь/к/изображению.jpg" alt="Описание изображения">
+
+<!-- Добавление ссылки -->
+<a href="https://www.google.com">Google</a>
+
+<!-- Создание таблицы -->
+<table>
+  <tr>
+    <th>Название</th>
+    <th>Цена</th>
+  </tr>
+  <tr>
+    <td>Телефон</td>
+    <td>1000 рублей</td>
+  </tr>
+  <tr>
+    <td>Компьютер</td>
+    <td>5000 рублей</td>
+  </tr>
+</table>
+
+<!-- Создание формы -->
+<form>
+  <label for="name">Имя:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="message">Сообщение:</label><br>
+  <textarea id="message" name="message"></textarea><br><br>
+  <input type="submit" value="Отправить">
+</form>
